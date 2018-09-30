@@ -1,0 +1,69 @@
+(vrtlenv) rkmr@rkmr-VirtualBox:~/Desktop$ python tweeterScrapper.py 
+ID          : 1026725994202198016
+Screen Name : RishabK77368486
+Name        : Rishab Kumar
+Followers   : 3
+Location    : 
+Description : 
+FriendCount : 41
+Joined At   : 2018-08-07 07:05:27
+Followed By Rishab Kumar
+['ID         ', 92708272] : ['Screen Name', u'msdhoni'] : ['Name       ', u'Mahendra Singh Dhoni']
+['ID         ', 2207369551] : ['Screen Name', u'ZeeBiharNews'] : ['Name       ', u'Zee Bihar Jharkhand']
+['ID         ', 300787447] : ['Screen Name', u'pappuyadavjapl'] : ['Name       ', u'Pappu Yadav']
+['ID         ', 1731129494] : ['Screen Name', u'News18Bihar'] : ['Name       ', u'News18 Bihar']
+['ID         ', 4777221914] : ['Screen Name', u'bihar_police'] : ['Name       ', u'Bihar Police (HQ)']
+['ID         ', 4801957520] : ['Screen Name', u'SyyedAaftab'] : ['Name       ', u'I Am Krrish\U0001f57a\U0001f3fb\U0001f495']
+['ID         ', 256914902] : ['Screen Name', u'mtdc_official'] : ['Name       ', u'Maharashtra Tourism']
+['ID         ', 1213502011] : ['Screen Name', u'P9Ashwini'] : ['Name       ', u'Ashwini Ponnappa']
+['ID         ', 4575856758] : ['Screen Name', u'CPMumbaiPolice'] : ['Name       ', u'CP Mumbai Police']
+['ID         ', 69570247] : ['Screen Name', u'GujaratTourism'] : ['Name       ', u'Gujarat Tourism']
+['ID         ', 720101708] : ['Screen Name', u'upcoprahul'] : ['Name       ', u'RAHUL SRIVASTAV']
+['ID         ', 992437866] : ['Screen Name', u'tipsofficial'] : ['Name       ', u'Tips Films & Music']
+['ID         ', 75229400] : ['Screen Name', u'Akanksha_India'] : ['Name       ', u'The Akanksha Foundation']
+['ID         ', 155151279] : ['Screen Name', u'mangeshkarlata'] : ['Name       ', u'Lata Mangeshkar']
+['ID         ', 21272440] : ['Screen Name', u'technology'] : ['Name       ', u'Bloomberg Technology']
+['ID         ', 55520719] : ['Screen Name', u'shreyaghoshal'] : ['Name       ', u'Shreya Ghoshal']
+['ID         ', 19895282] : ['Screen Name', u'arrahman'] : ['Name       ', u'A.R.Rahman']
+['ID         ', 72216675] : ['Screen Name', u'WVIndia'] : ['Name       ', u'World Vision India']
+['ID         ', 113419517] : ['Screen Name', u'iHrithik'] : ['Name       ', u'Hrithik Roshan']
+['ID         ', 87174678] : ['Screen Name', u'MirzaSania'] : ['Name       ', u'Sania Mirza']
+['ID         ', 2847250015] : ['Screen Name', u'ipritamofficial'] : ['Name       ', u'Pritam']
+['ID         ', 624462023] : ['Screen Name', u'iTIGERSHROFF'] : ['Name       ', u'Tiger Shroff']
+['ID         ', 3171712086] : ['Screen Name', u'RahulGandhi'] : ['Name       ', u'Rahul Gandhi']
+['ID         ', 33801019] : ['Screen Name', u'ParineetiChopra'] : ['Name       ', u'Parineeti Chopra']
+['ID         ', 405427035] : ['Screen Name', u'ArvindKejriwal'] : ['Name       ', u'Arvind Kejriwal']
+['ID         ', 68497896] : ['Screen Name', u'RanveerOfficial'] : ['Name       ', u'Ranveer Singh']
+['ID         ', 334999986] : ['Screen Name', u'Avid'] : ['Name       ', u'Avid']
+['ID         ', 31348594] : ['Screen Name', u'akshaykumar'] : ['Name       ', u'Akshay Kumar']
+['ID         ', 1346439824] : ['Screen Name', u'rajnathsingh'] : ['Name       ', u'\u09b0\u09be\u099c\u09a8\u09be\u09a5 \u09b8\u09bf\u0982\u09b9']
+['ID         ', 124382464] : ['Screen Name', u'tiscatime'] : ['Name       ', u'Tisca Chopra']
+['ID         ', 16536844] : ['Screen Name', u'Caltech'] : ['Name       ', u'Caltech']
+['ID         ', 19080617] : ['Screen Name', u'GeorgiaTech'] : ['Name       ', u'Georgia Tech']
+['ID         ', 24889586] : ['Screen Name', u'AnandWrites'] : ['Name       ', u'Anand Giridharadas']
+['ID         ', 76427043] : ['Screen Name', u'NatGeoIndia'] : ['Name       ', u'Nat Geo India']
+['ID         ', 1196254680] : ['Screen Name', u'NSaina'] : ['Name       ', u'Saina Nehwal']
+['ID         ', 372801523] : ['Screen Name', u'GoChhattisgarh'] : ['Name       ', u'Chhattisgarh Tourism']
+['ID         ', 239267224] : ['Screen Name', u'Shankar_Live'] : ['Name       ', u'Shankar Mahadevan']
+['ID         ', 2602959463] : ['Screen Name', u'RailMinIndia'] : ['Name       ', u'Ministry of Railways']
+['ID         ', 83983275] : ['Screen Name', u'_RavinderSingh_'] : ['Name       ', u'Ravinder Singh']
+['ID         ', 147551629] : ['Screen Name', u'Madhuribanerjee'] : ['Name       ', u'Madhuri Banerjee']
+['ID         ', 1359267174] : ['Screen Name', u'MardOfficial'] : ['Name       ', u'MARD']
+Followers of Rishab Kumar
+['ID         ', 4729002686] : ['Screen Name', u'Dsptripurari'] : ['Name       ', u'Tripurari Pandey']
+['ID         ', 1029129527979589633] : ['Screen Name', u'Bio_Interactive'] : ['Name       ', u'Bio Interactive']
+['ID         ', 1029091093789462528] : ['Screen Name', u'PioneeringVR'] : ['Name       ', u'Pioneering VR']
+Retweet 1
+None
+Likes 1
+None
+                                              tweets                   id  len    ...     likes retweets  sentiment
+0  RT @ashishchalukya1: @DaaruBaazMehta @ArvindKe...  1036941805810475008  106    ...         0        1         -1
+1  @RishabK77368486 Python is AMAZING when used w...  1036936050654863362   89    ...         1        0          1
+2  I love to read Ender's Game https://t.co/CwVZa...  1034449901407457280   51    ...         0        0          1
+3  Badhaye........🙏👏👏👏👏👏🙏🙏🙏🙏🙏🙏 https://t.co/JRziZ...  1034448806274785282   51    ...         0        0          0
+4                                      Hello Friends  1034448042768838656   13    ...         0        0          0
+
+[5 rows x 8 columns]
+
+
