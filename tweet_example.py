@@ -125,20 +125,13 @@ for follower_id in Cursor(api.followers_ids, screen_name = 'shreya73767208').ite
     f.write(l1[1].replace('u','')+","+l3[1].replace(']','')+","+str(data1[0])+","+str(data1[1])+","+str(data1[2])+"\n")
 f.close() 
     
- #   ct=0
-''' 
-for l in list1:
-    l1=l.split(',')
-    print l1[1].replace('u','')
-    data1=getTweets(l1[1].replace('u',''),40)
-    print data1
-'''      
+    
 #print friend list#######################################################
 filename="C:\\Python27\\tweet.csv"
 f=open(filename,"w+")
 headers="Name,friends,Possitive,Neggative,Neutral"
 f.write(headers+"\n")
-user=api.get_user('RishabK77368486')
+user=api.get_user('shreya73767208')
 ct=0
 person=[]
 list2=[]
