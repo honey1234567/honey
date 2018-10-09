@@ -138,11 +138,11 @@ filename="C:\\Python27\\tweet.csv"
 f=open(filename,"w+")
 headers="Name,friends,Possitive,Neggative,Neutral"
 f.write(headers+"\n")
-user=api.get_user('shreya73767208')
+user=api.get_user('RishabK77368486')
 ct=0
 person=[]
 list2=[]
-for friend in user.friends():
+for friend in user.friends(count=200):
     
     print friend.screen_name
     ct=ct+1
