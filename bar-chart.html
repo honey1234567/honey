@@ -1,0 +1,93 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>  
+<meta charset="UTF-8">
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<body>
+<p>
+	Name :  <input type="text" name="name" id="name" />
+</p>
+
+<p>
+   <input type="button" value="Submit" onclick="testSave()" />
+</p></body>
+   {% load static %}
+<script>
+	
+function testSave()
+{
+
+
+            var name;
+            name = document.getElementById('name').value;
+            //alert("hi")
+
+		//
+            
+            $.get("saveTest1?name="+name, function(responseText) {
+				  // Execute Ajax GET request on URL of "someservlet" and execute the following function with Ajax response text...
+            alert(responseText);
+			
+			d=responseText.split("]");
+			var out = new Array();
+
+			for(var i=0; i<d.length-1;i++)
+			{
+					s = d[i].split(",");
+
+					lab = s[0].replace("[","");
+
+					value =s[1].replace(" ","");
+					value =parseInt( value.replace("'",""));
+
+					//alert(lab+"|"+value);
+				
+					out.push({label:lab,y:value});
+
+			}		
+
+			
+			var chart = new CanvasJS.Chart("chartContainer", {
+							animationEnabled: true,
+							
+							title:{
+								text:"Friends of user"
+							},
+							axisX:{
+								interval: 1
+							},
+							axisY2:{
+								interlacedColor: "rgba(1,77,101,.2)",
+								gridColor: "rgba(1,77,101,.1)",
+								title: "Number of friends"
+							},
+							data: [{
+								type: "bar",
+								name: "companies",
+								axisYType: "secondary",
+								color: "#014D65",
+								dataPoints:out
+							}]
+						});
+
+						chart.render();
+
+
+			});
+}
+
+
+/*
+
+
+*/		
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
+<script src="{% static 'canvasjs.min.js' %}"></script>
+</body>
+</html>
